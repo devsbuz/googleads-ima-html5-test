@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>IMA HTML5 Simple Demo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	
+	<style>
+.wide {
+    width: 700px;
+    height: 450px;
+	margin:20px auto;
+}
+
+.wide video {
+    width: 700px;
+    height: 440px;
+	background:#000;
+}
+h1 {  font-family: Helvetica, Arial, sans-serif;  text-align: center; font-size:50px; margin-top:20px; color:#fff;
+	  text-shadow: 2px 2px 0px rgba(255,255,255,.7), 5px 7px 0px rgba(0, 0, 0, 0.1); 
+}
+video::-webkit-media-controls-panel{
+	background:#000;
+	}
+video::-webkit-media-controls-current-time-display{color:#fff}
+video::-webkit-media-controls-time-remaining-display{color:#fff}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	
+  </head>
+
+  <body background="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg>
+  <!--   <div id="mainContainer">  -->
+	<div class="wide">
+      <div id="content">
+        <video id="contentElement">
+          <source src="http://media.w3.org/2010/05/bunny/trailer.mp4"></source>
+          <source src="http://rmcdn.2mdn.net/Demo/vast_inspector/android.webm"></source>
+        </video>
+      </div>
+	
+      <div id="adContainer"></div>
+   <!-- </div>  -->
+    <button id="playButton">Play</button>
+	  </div>
+    <script type="text/javascript" src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+    <script type="text/javascript" src="ads.js"></script>
+  </body>
+</html>
