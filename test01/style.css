@@ -12,6 +12,12 @@
   height: 360px;
 }  */
 
+#btnn {
+	
+	display: flex; 
+	justify-content: center; 
+}
+
 #contentElement {
   width: 640px;
   height: 360px;
@@ -19,7 +25,7 @@
 }
 
 #playButton {
-  margin-top:10px;
+ /* margin-top:10px;  */
   vertical-align: top;
   width: 350px;
   height: 60px;
